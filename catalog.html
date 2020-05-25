@@ -30,7 +30,73 @@
         </ul>
       </nav>
       <section>
-        <h2>Фильтр товаров</h2>
+        <h2>Фильтр:</h2>
+        <form action="https://echo.htmlacademy.rul" method="get">
+          <fieldset>
+            <legend>Стоимость</legend>
+            <input type="range" name="cost" value="0" id="cost">
+          </fieldset>
+          <fieldset>
+            <legend>Цвет</legend>
+            <ul>
+              <li>
+                <input type="checkbox" name="black" id="black" checked>
+                <label for="black">Чёрный</label>
+              </li>
+              <li>
+                <input type="checkbox" name="white" id="white">
+                <label for="white">Белый</label>
+              </li>
+              <li>
+                <input type="checkbox" name="blue" id="blue" checked>
+                <label for="blue">Синий</label>
+              </li>
+              <li>
+                <input type="checkbox" name="red" id="red" checked>
+                <label for="red">Красный</label>
+              </li>
+              <li>
+                <input type="checkbox" name="pink" id="pink">
+                <label for="pink">Розовый</label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <legend>Bluetooth</legend>
+            <ul>
+              <li>
+                <input type="radio" name="Bluetooth" id="yes" checked>
+                <label for="yes">Есть</label>
+              </li>
+              <li>
+                <input type="radio" name="Bluetooth" id="no">
+                <label for="no">Нет</label>
+              </li>
+            </ul>
+          </fieldset>
+          <button type="submit">показать</button>
+        </form>
+      </section>
+      <section>
+        <h2>сортировка:</h2>
+        <ul>
+          <li>
+            <input type="radio" name="sorting" id="price" checked>
+            <label for="price">По цене</label>
+          </li>
+          <li>
+            <input type="radio" name="sorting" id="type">
+            <label for="type">По типу</label>
+          </li>
+          <li>
+            <input type="radio" name="sorting" id="popular">
+            <label for="popular">По популярности</label>
+          </li>
+        </ul>
+        <div>
+          <button type="button" aria-label="дешевле"></button>
+          <button type="button" aria-label="дороже"></button>
+        </div>
       </section>
       <section>
         <h2>Список моноподов для селфи</h2>
@@ -81,6 +147,15 @@
           </li>
         </ul>
       </section>
+      <nav>
+        <a href="#">назад</a>
+        <ul>
+          <li><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+        </ul>
+        <a href="#">вперед</a>
+      </nav>
     </main>
     <footer>
       <div>
