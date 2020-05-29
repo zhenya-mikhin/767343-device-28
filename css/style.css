@@ -1,3 +1,30 @@
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+
+  src: url("../fonts/gilroyextrabold.woff2") format("woff2"),
+  url("../fonts/gilroyextrabold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 300;
+
+  src: url("../fonts/gilroylight.woff2") format("woff2"),
+  url("../fonts/gilroylight.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+
+  src: url("../fonts/opensans.woff2") format("woff2"),
+  url("../fonts/opensans.woff") format("woff");
+}
+
 :root {
   --basic-black: #000000;
   --basic-dark: #363636;
@@ -17,7 +44,7 @@ body {
   margin: 0;
   padding: 0;
 
-  font-family: "Open Sans", "Arial", sans-serif;
+  font-family: "Open Sans";
   font-weight: 300;
   font-size: 15px;
   line-height: 28px;
