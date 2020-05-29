@@ -3,34 +3,70 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <a href="#">DEVICE</a>
-      <a href="">Поиск по сайту</a>
-      <ul>
-        <li><a href="#">Войти</a></li>
-        <li><a href="#">Сравнить</a></li>
-        <li><a href="#">Корзина</a></li>
-      </ul>
-      <ul>
-        <li>
-          <a href="catalog.html">каталог товаров</a>
-          <ul>
-            <li><a href="#">Виртуальная реальность</a></li>
-            <li><a href="#">Фитнес-браслет</a></li>
-            <li><a href="#">Квадрокоптер</a></li>
-            <li><a href="#">Моноподы для селфи</a></li>
-            <li><a href="#">Умные часы</a></li>
-            <li><a href="#">Экшн-камеры</a></li>
-          </ul>
-        </li>
-        <li><a href="#">доставка</a></li>
-        <li><a href="#">гарантия</a></li>
-        <li><a href="#">контакты</a></li>
-      </ul>
+    <header class="header">
+      <div class="header__logo">
+        <a><img src="img/logo_header.svg" width="163" height="35" alt="DEVICE"></a>
+      </div>
+      <nav class="header__nav navigation">
+        <ul class="navigation__user-list">
+          <li class="navigation__user-item">
+            <form class="navigation__search" action="https://echo.htmlacademy.ru" method="get">
+              <input class="navigation__search-input" type="text" id="search" placeholder="Поиск по сайту">
+              <button class="navigation__search-button" type="submit">Найти</button>
+            </form>
+          </li>
+          <li class="navigation__user-item">
+            <a class="navigation__user-link" href="#">Войти</a>
+          </li>
+          <li class="navigation__user-item">
+            <a class="navigation__user-link" href="#">Сравнить</a>
+          </li>
+          <li class="navigation__user-item">
+            <a class="navigation__user-link" href="#">Корзина</a>
+          </li>
+        </ul>
+        <ul class="navigation__site-list">
+          <li class="navigation__site-item">
+            <a class="navigation__site-link" href="catalog.html">каталог товаров</a>
+            <ul class="navigation__sub-list">
+              <li class="navigation__sub-item">
+                <a class="navigation__sub-link" href="#">Виртуальная реальность</a>
+              </li>
+              <li class="navigation__sub-item">
+                <a class="navigation__sub-link" href="#">Фитнес-браслет</a>
+              </li>
+              <li class="navigation__sub-item">
+                <a class="navigation__sub-link" href="#">Квадрокоптер</a>
+              </li>
+              <li class="navigation__sub-item">
+                <a class="navigation__sub-link" href="#">Моноподы для селфи</a>
+              </li>
+              <li class="navigation__sub-item">
+                <a class="navigation__sub-link" href="#">Умные часы</a>
+              </li>
+              <li class="navigation__sub-item">
+                <a class="navigation__sub-link" href="#">Экшн-камеры</a>
+              </li>
+            </ul>
+          </li>
+          <li class="navigation__site-item">
+            <a class="navigation__site-link" href="#">доставка</a>
+          </li>
+          <li class="navigation__site-item">
+            <a class="navigation__site-link" href="#">гарантия</a>
+          </li>
+          <li class="navigation__site-item">
+            <a class="navigation__site-link" href="#">контакты</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
+      <h1 class="visually-hidden">Интернет-магазин гаджетов "DEVICE"</h1>
       <section>
         <ul>
           <li>
@@ -38,7 +74,7 @@
             <span>01</span>
             <p><b>Делай селфи, как Бен Стиллер!</b></p>
             <p>Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.</p>
-            <a href="#">подробнее</a>
+            <a class="button" href="#">подробнее</a>
             <ul>
               <li>
                 <p>8,5 м</p>
