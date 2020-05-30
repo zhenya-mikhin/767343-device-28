@@ -67,6 +67,27 @@ ul {
   list-style: none;
 }
 
+.button {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--basic-black);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0)
+}
 
 /* header */
 
@@ -97,4 +118,50 @@ ul {
 .navigation__sub-link:hover,
 .navigation__sub-link:focus {
   opacity: 0.6;
+}
+
+.navigation__sub-list {
+  display: none;
+}
+
+
+/* main */
+
+.slider__number {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 179px;
+  line-height: 219px;
+  text-transform: uppercase;
+  color: var(--basic-white);
+}
+
+.slider__header {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 47px;
+  line-height: 58px;
+  color: var(--basic-black);
+}
+
+.slider__advantages-value {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.1em;
+  color: var(--basic-black);
+}
+
+.slider__advantages-argument {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  color: var(--basic-black);
 }
