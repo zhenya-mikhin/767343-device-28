@@ -217,51 +217,90 @@
           </li>
         </ul>
       </article>
-      <section>
-        <h2>О нас</h2>
-        <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
-        <p>Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими транспортными компаниями:</p>
-        <ul>
-          <li><a href="">Деловые линии</a></li>
-          <li><a href="">Автотрейдинг</a></li>
-          <li><a href="">ЖелДорЭкспедиция</a></li>
-        </ul>
-        <button type="button">подробнее о нас</button>
-      </section>
-      <section>
-        <h2>Контакты</h2>
-        <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
-        <a href="">
-          <img src="img/map.jpg" width="560" height="222" alt="карта где мы находимся">
-        </a>
-        <button type="button">напишите нам</button>
-      </section>
+      <div class="columns">
+        <section class="about-us">
+          <h2 class="columns__header about-us__header">О нас</h2>
+          <p class="columns__content">Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
+          <p class="columns__content">Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими транспортными компаниями:</p>
+          <ul class="about-us__list">
+            <li class="about-us__item">
+              <a class="about-us__link" href="">Деловые линии</a>
+            </li>
+            <li class="about-us__item">
+              <a class="about-us__link" href="">Автотрейдинг</a>
+            </li>
+            <li class="about-us__item">
+              <a class="about-us__link" href="">ЖелДорЭкспедиция</a>
+            </li>
+          </ul>
+          <button class="columns__button about-us__button button" type="button">подробнее о нас</button>
+        </section>
+        <section class="contacts">
+          <h2 class="columns__header contacts__header">Контакты</h2>
+          <p class="columns__content">Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
+          <a href="">
+            <img src="img/map.jpg" width="560" height="222" alt="карта где мы находимся">
+          </a>
+          <button class="columns__button contacts__button button" type="button">напишите нам</button>
+        </section>
+      </div>
     </main>
-    <footer>
-      <div>
-        <a href="">DEVICE</a>
-        <ul>
-          <li><a href="#">Войти</a></li>
-          <li><a href="#">Сравнить</a></li>
-          <li><a href="#">Корзина</a></li>
-        </ul>
-      </div>
-      <div>
-        <p>г. Москва, ул. Строителей, 15</p>
-        <ul>
-          <li><a href="#">доставка</a></li>
-          <li><a href="#">гарантия</a></li>
-          <li><a href="#">контакты</a></li>
-        </ul>
-        <p>Тел.: +7 (495) 495-95-95</p>
-      </div>
-      <div>
-        <ul>
-          <li><a href="">facebook</a></li>
-          <li><a href="">instagram</a></li>
-          <li><a href="">twitter</a></li>
-        </ul>
-        <a href="https://htmlacademy.ru/intensive/htmlcss"></a>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__row">
+          <div class="footer__logo">
+            <a><img src="img/logo_footer.svg" width="163" height="35" alt="DEVICE"></a>
+          </div>
+          <ul class="footer__user-nav-list">
+            <li class="footer__user-nav-item">
+              <a class="footer__user-nav-link" href="#">Войти</a>
+            </li>
+            <li class="footer__user-nav-item">
+              <a class="footer__user-nav-link" href="#">Сравнить</a>
+            </li>
+            <li class="footer__user-nav-item">
+              <a class="footer__user-nav-link" href="#">Корзина</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__row">
+          <p class="footer__paragraph">г. Москва, ул. Строителей, 15</p>
+          <ul class="footer__site-nav-list">
+            <li class="footer__site-nav-item">
+              <a class="footer__site-nav-link" href="#">доставка</a>
+            </li>
+            <li class="footer__site-nav-item">
+              <a class="footer__site-nav-link" href="#">гарантия</a>
+            </li>
+            <li class="footer__site-nav-item">
+              <a class="footer__site-nav-link" href="#">контакты</a>
+            </li>
+          </ul>
+          <p class="footer__paragraph">Тел.: +7 (495) 495-95-95</p>
+        </div>
+        <div class="footer__row">
+          <div class="footer__rectangle"></div>
+          <ul class="footer__social-list">
+            <li class="footer__social-item">
+              <a class="footer__social-link link-facebook" href="#" aria-label="facebook">
+                <img src="img/icon_facebook.svg" alt="">
+              </a>
+            </li>
+            <li class="footer__social-item">
+              <a class="footer__social-link link-instagram" href="#" aria-label="instagram">
+                <img src="img/icon_instagram.svg" alt="">
+              </a>
+            </li>
+            <li class="footer__social-item">
+              <a class="footer__social-link link-twitter" href="#" aria-label="twitter">
+                <img src="img/icon_twitter.svg" alt="">
+              </a>
+            </li>
+          </ul>
+          <a class="footer__HTML-logo" href="https://htmlacademy.ru/intensive/htmlcss">
+            <img src="img/icon_HTMLAcademy.svg" alt="HTMLAcademy">
+          </a>
+        </div>
       </div>
     </footer>
     <section>
