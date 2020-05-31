@@ -193,3 +193,31 @@ ul {
   letter-spacing: 0.05em;
   color: var(--basic-black);
 }
+
+.service-slider {
+  background-color: var(--basic-grey-light);
+}
+
+.service-slider__wrap {
+  width: 1158px;
+}
+
+.service-slider__header {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 47px;
+  line-height: 58px;
+  letter-spacing: 0.2em;
+  color: var(--basic-black);
+}
+
+.service-slider__content {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+  color: var(--basic-black);
+}
