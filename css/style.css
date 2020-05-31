@@ -221,3 +221,59 @@ ul {
   letter-spacing: 0.1em;
   color: var(--basic-black);
 }
+
+.brands__list {
+  display: flex;
+  justify-content: space-between;
+
+  width: 1160px;
+}
+
+.brands__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 260px;
+}
+
+.brands__link {
+  width: 260px;
+  height: 100px;
+}
+
+.brands__link--dji {
+  background: url(../img/logo_dji.png);
+}
+
+.brands__link--dji:focus,
+.brands__link--dji:hover {
+  background: url(../img/logo_dji_active.png);
+}
+
+.brands__link--sp_gadgets {
+  background: url(../img/logo_sp-gadgets.png);
+}
+
+.brands__link--sp_gadgets:focus,
+.brands__link--sp_gadgets:hover {
+  background: url(../img/logo_sp-gadgets_active.png);
+}
+
+.brands__link--go_pro {
+  background: url(../img/logo_gopro.png);
+}
+
+.brands__link--go_pro:focus,
+.brands__link--go_pro:hover {
+  background: url(../img/logo_gopro_active.png);
+}
+
+.brands__link--vive {
+  background: url(../img/logo_vive.png);
+}
+
+.brands__link--vive:focus,
+.brands__link--vive:hover {
+  background: url(../img/logo_vive_active.png);
+}
