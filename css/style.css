@@ -165,3 +165,31 @@ ul {
   letter-spacing: 0.1em;
   color: var(--basic-black);
 }
+
+.main-catalog__list {
+  display: flex;
+  justify-content: space-between;
+
+  width: 1160px;
+}
+
+.main-catalog__item {
+  width: 160px;
+}
+
+.main-catalog__wrap {
+  width: 160px;
+  height: 160px;
+
+  background-color: var(--special-yellow);
+}
+
+.main-catalog__row {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  color: var(--basic-black);
+}
